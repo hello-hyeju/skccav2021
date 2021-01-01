@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS 새해인사</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <meta property="og:image"
+            content="https://raw.githubusercontent.com/hello-hyeju/2021HappyNewYear_client/main/Resources/intro.JPG">
+    <meta property="og:description" content="2021년 BTS 새해인사">
+    <meta property="og:titlte" content="하주석 팀장님께">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/hello-hyeju/2021HappyNewYear_client/master/Resources/heart.png">
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+    <style>
+        * {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        * {
+  	        word-break:keep-all;
+        }
+
+        body {
+            background-color:rgb(234, 0, 44);
+        }
+        .envelope {
+            background-image: url('https://raw.githubusercontent.com/hello-hyeju/2021HappyNewYear_client/main/Resources/background_ha.png');
+            background-size: cover;
+            background-position: center;
+            width: 550px;
+            height: 350px;
+            margin: 100px auto 0px auto;
+            cursor: pointer;
+        }
+        .envelope-msg {
+            color: white;
+            text-align: center;
+        }
+        .letter-close {
+            display: block;
+        }
+        .letter-open {
+            display: none;
+        }
+        .rtan {
+            width: 350px;
+            height: 300px;
+            background-image: url('https://raw.githubusercontent.com/hello-hyeju/2021HappyNewYear_client/main/Resources/bangtan1.gif');
+            background-size: cover;
+            background-position: center;
+            background-color: white;
+            margin: 100px auto 0px auto;
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .rtan1 {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .messagebox {
+            width: 500px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 32px;
+            background-color: ivory;
+            color: rgb(14, 11, 11);
+            padding: 30px;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        .from {
+            text-align: right;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width: 300px;
+                font-size: 16px;
+                line-height: 26px;
+                padding: 20px;
+            }
+            .rtan {
+                width: 300px;
+                height: 300px;
+                margin: 70px auto 0px auto;
+            }
+            .rtan1 {
+                width: 300px;
+                height: 100px;
+                margin: 50px auto 0px auto;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .envelope {
+                background-image: url('https://raw.githubusercontent.com/hello-hyeju/2021HappyNewYear_client/main/Resources/background_ha.png');
+                background-size: cover;
+                background-position: center;
+                width: 300px;
+                height: 180px;
+                margin: 100px auto 0px auto;
+            }
+            .envelope-msg {
+                color: white;
+                text-align: center;
+                margin: 50px auto 0px auto;
+        }
+        }
+    </style>
+    <script>
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+        function go_rtan() {
+            alert('★내년에는 더 발전된 모습, 기대해주세요★')
+            window.location.href="https://www.bts.com/client-success/case-studies"
+        }
+    </script>
+</head>
+<body>
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h1 class="envelope-msg">
+            <p class="tab-txt">
+                <b>To. 하주석 팀장님께</b></h1></p>
+            <h4 class="envelope-msg">
+                <p class="tab-txt">위의 이미지를 클릭해주세요! :)</h4></p>            
+    </div>
+    <div class="letter-open">
+        <div class="rtan" onclick="go_rtan()"></div>
+        <h1 class="rtan1">팀장님, 2020년 정말 고생 많으셨고<br>올해도 새해 복 많이 받으십시오♥</h1>
+        <div class="messagebox">
+        <p class="tab-txt"> 팀장님, 안녕하세요! BTS 박혜주입니다.</p>
+        <p class="tab-txt">
+            다사다난했던 한해를 마무리하며 만나뵙고 인사드리고 싶었지만,
+            상황이 여의치 않아 이렇게 카드를 준비해 보았습니다.</p>
+        <p class="tab-txt">
+            지난 여름 오리 고기와 함께 소주 한잔 했던 때가 엊그제 같은데,
+            벌써 한해를 마무리하는 시기가 왔습니다.
+        </p>
+        <p class="tab-txt">
+            올 한해를 돌이켜 보면, 팀장님께 감사한 점도 많고, 기억에 남는 순간도 참 많습니다. 
+            특히 팀장님께서 저에게 말씀주신 따끔따끔한 가르침을, 잊지 않고 
+            마음이 흔들릴 때마다 그 때를 떠올립니다.
+            철 없고 생각이 짧았던 저의 모습을 모른체 하지 않으시고, 지도 편달 해주셔서 다시한번 감사합니다.
+            (가끔은 그 때가 부끄러워 이불킥을 하기도 합니다^^;)</p>
+        <p class="tab-txt">
+            올 한해 저와 BTS가 팀장님께 부족한 점도 있었고, 모자란던 점도 있었지만 믿어 주신 만큼
+            팀장님과 SK그룹에 조금이나마 보탬이 되도록 최선을 다하겠습니다. 
+            여러모로 정신 없이 흘러갔던 한해, 연말 동안 무사히 마무리 하시기를 바라며,
+            격무 중에도 가족분들과 안전하게 리프레시 하시기를 기원합니다 :)</p>
+        <p class="tab-txt">
+            팀장님, 2021년 새해 복 많이 받으시고, 행복하고 즐거운 일만 가득하시길 바랍니다!</p>
+        </p>
+            ps. 코로나 상황이 풀리면, 소주 한잔 대접하고 싶습니다.  
+        <p class="from">2021년 1월 1일 BTS 박혜주 드림</p>
+        </div>
+    </div>
+</body>
+</html>
